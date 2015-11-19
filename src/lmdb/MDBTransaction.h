@@ -11,11 +11,11 @@
 #define _STX_MDBTRANSACTION_H
 #include <memory>
 #include <vector>
-#include <liblmdb/lmdb.h>
+#include <lmdb/lmdb.h>
 #include "stx/autoref.h"
 #include "stx/logging.h"
 #include "stx/option.h"
-#include "zbase/util/mdb/MDBCursor.h"
+#include "lmdb/MDBCursor.h"
 
 namespace stx {
 namespace mdb {

@@ -11,7 +11,7 @@
 #define _STX_MDBCURSOR_H
 #include <memory>
 #include <vector>
-#include <liblmdb/lmdb.h>
+#include <lmdb/lmdb.h>
 #include "stx/autoref.h"
 #include "stx/logging.h"
 #include "stx/option.h"

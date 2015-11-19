@@ -1,3 +1,5 @@
+include_directories(src)
+
 add_library(lmdb OBJECT
     src/lmdb/mdb.c
     src/lmdb/midl.c
